@@ -7,6 +7,10 @@ function run() {
     methods: {
       doSomething: function () {
         console.log('The input string value is: ' + this.message);
+               if(this.message == '123')
+               {
+                document.getElementById("app").innerHTML = "Mesajul este egal cu 123";
+               }
       }
     }
   });
